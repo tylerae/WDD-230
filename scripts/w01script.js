@@ -5,4 +5,6 @@ function dates()
     return date;
 };
 
-document.getElementById.innerHTML("dating") = "foobar";
+let returnDate = `Last edit made on ${dates()}`
+
+document.getElementById("dating").innerHTML = returnDate;
